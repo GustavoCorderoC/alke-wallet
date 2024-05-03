@@ -1,3 +1,60 @@
 <resources>
     <string name="app_name">Alke Wallet</string>
+
+    <!-- activity LoginSignature -->
+    <string name="texto_bienvenida">El lugar mas seguro para tu dinero</string>
+    <string name="tiene_cuenta">¿Ya tiene una cuenta?</string>
+
+    <!-- activity LoginPage -->
+    <string name="logeate_coimenza">¡Logea y empeza a tranferir!</string>
+    <string name="label_mail">Email</string>
+    <string name="hint_mail">Ingresa tu Email</string>
+    <string name="label_pass">Password</string>
+    <string name="hint_pass">Ingresa tu Password</string>
+    <string name="olvidaste_pass">¿Olvidaste tu Password?</string>
+    <string name="boton_login">Login</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+
+    <!-- activity SignupPage -->
+    <string name="registrate_empieza">Registrarse y Empezar a Transferir</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="hint_nombre">Ingresa tu Nombre</string>
+    <string name="label_apellido">Apellido</string>
+    <string name="hint_apellido">Ingresa tu Apellido</string>
+    <!-- email y contraseña se puede ocupar de activity antrerior -->
+    <string name="label_reescribe_pass">Reingresa tu Password</string>
+    <string name="hint_reescribe_pass">Reingresa tu Password</string>
+    <string name="boton_crear_cuenta">Crea tu Cuenta</string>
+    <!-- ya tiene una cuenta podemos ocupar la de LoginSignature -->
+
+
+    <!-- Activity HomePage y Empity Case  -->
+
+    <string name="inicio">Inicio</string>
+    <string name="saludo_nombre">Hola Gustavo</string>
+    <string name="balance">Balance Total</string>
+    <string name="boton_enviar_dinero">Enviar Dinero</string>
+    <string name="boton_ingresar_dinero">Ingresar Dinero</string>
+    <string name="ultima_transaccion">Ultima Transacciones</string>
+    <string name="sin_transaccion">Sin Transacciones</string>
+
+
+    <!-- Activity Request y Send Money -->
+
+    <string name="ingresar_dinero">Ingresar Dinero</string>
+    <string name="enviar_dinero">Enviar Dinero</string>
+    <string name="cantidad_ingresar">Cuanto quieres Depositar</string>
+    <string name="cantidad_retirar">Cuanto quieres Retirar</string>
+    <string name="notas_transfe">Notas de Transferencia</string>
+    <!-- Se ocupan los mismos botones de enviar y ingresar dinero de activity anterior -->
+
+    <!-- Activity Profile -->
+
+    <string name="perfil">Mi Perfil</string>
+    <string name="boton_info">Mi Información</string>
+    <string name="boton_tarjetas">Mis Tarjetas</string>
+    <string name="boton_op">Opciones</string>
+    <string name="boton_help">Centro de Ayuda</string>
+
+
 </resources>

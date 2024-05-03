@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_flecha"
+    tools:context=".SignupPage">
+
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="300dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/registrate_empieza"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="331dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/label_nombre"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="516dp"
+        android:background="@drawable/fondobox"
+        android:ems="15"
+        android:fontFamily="@font/jua"
+        android:hint="@string/hint_nombre"
+        android:inputType="text|textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="@color/negro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="@string/label_apellido"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.764"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondobox"
+        android:ems="15"
+        android:fontFamily="@font/jua"
+        android:hint="@string/hint_apellido"
+        android:inputType="text|textPersonName"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="@string/label_mail"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.714"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondobox"
+        android:ems="15"
+        android:fontFamily="@font/jua"
+        android:hint="@string/hint_mail"
+        android:inputType="text|textEmailAddress"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/label_pass"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondobox"
+        android:ems="15"
+        android:fontFamily="@font/jua"
+        android:hint="@string/hint_pass"
+        android:inputType="text|textPassword"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="@string/label_reescribe_pass"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondobox"
+        android:ems="15"
+        android:fontFamily="@font/jua"
+        android:hint="@string/hint_reescribe_pass"
+        android:inputType="text|textPassword"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <Button
+        android:id="@+id/btn_crear_cuenta"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="177dp"
+        android:backgroundTint="@color/azul"
+        android:fontFamily="@font/jua"
+        android:text="@string/boton_crear_cuenta"
+        android:textColor="@color/blanco"
+        android:textSize="20sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="612dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/tiene_cuenta"
+        android:textColor="@color/azul"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
