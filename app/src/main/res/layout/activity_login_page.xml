@@ -36,6 +36,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fondobox"
         android:ems="15"
         android:fontFamily="@font/jua"
         android:hint="@string/hint_mail"
@@ -62,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
         android:layout_marginEnd="76dp"
+        android:background="@drawable/fondobox"
         android:ems="15"
         android:fontFamily="@font/jua"
         android:hint="@string/hint_pass"

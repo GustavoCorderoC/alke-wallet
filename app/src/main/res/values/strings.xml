@@ -44,8 +44,10 @@
     <string name="ingresar_dinero">Ingresar Dinero</string>
     <string name="enviar_dinero">Enviar Dinero</string>
     <string name="cantidad_ingresar">Cuanto quieres Depositar</string>
-    <string name="cantidad_retirar">Cuanto quieres Retirar</string>
+    <string name="cantidad_transf">Cantidad a transferir</string>
     <string name="notas_transfe">Notas de Transferencia</string>
+    <string name="agregar_notas_transfe">Agregar notas de transferencia(opcional)</string>
+
     <!-- Se ocupan los mismos botones de enviar y ingresar dinero de activity anterior -->
 
     <!-- Activity Profile -->
@@ -55,6 +57,6 @@
     <string name="boton_tarjetas">Mis Tarjetas</string>
     <string name="boton_op">Opciones</string>
     <string name="boton_help">Centro de Ayuda</string>
-
+    <string name="nombre_perfil">Amanda Alkemy</string>
 
 </resources>
