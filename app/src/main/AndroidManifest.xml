@@ -13,25 +13,25 @@
         android:theme="@style/Theme.AlkeWallet"
         tools:targetApi="31">
         <activity
-            android:name=".ProfilePage"
+            android:name=".view.ProfilePageActivity"
             android:exported="false" />
         <activity
-            android:name=".RequestMoney"
+            android:name=".view.RequestMoneyActivity"
             android:exported="false" />
         <activity
-            android:name=".HomePage"
+            android:name=".view.HomePageActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupPage"
+            android:name=".view.SignupPageActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginPage"
+            android:name=".view.LoginPageActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginSignatureActivity"
+            android:name=".view.LoginSignatureActivity"
             android:exported="false" />
         <activity
-            android:name=".SplachScreenActivity"
+            android:name=".view.SplachScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

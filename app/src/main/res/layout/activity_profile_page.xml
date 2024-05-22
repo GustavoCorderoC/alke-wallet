@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilePage">
+    tools:context=".view.ProfilePageActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -81,7 +81,7 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_crear_cuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/boton_info"
