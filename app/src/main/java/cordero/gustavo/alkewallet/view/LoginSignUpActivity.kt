@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import cordero.gustavo.alkewallet.databinding.ActivityLoginSignatureBinding
 
-class LoginSignatureActivity : AppCompatActivity() {
+class LoginSignUpActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityLoginSignatureBinding
 

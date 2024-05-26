@@ -28,7 +28,7 @@
             android:name=".view.LoginPageActivity"
             android:exported="false" />
         <activity
-            android:name=".view.LoginSignatureActivity"
+            android:name=".view.LoginSignUpActivity"
             android:exported="false" />
         <activity
             android:name=".view.SplachScreenActivity"
