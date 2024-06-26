@@ -37,9 +37,10 @@ class ListTransactionAdapter(private val ListaTransacciones: List<Transaction>) 
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.itemName.text = ListaTransacciones[position].name
+        holder.amount.text = ListaTransacciones[position].amount
         holder.concept.text = ListaTransacciones[position].lastName
         holder.date.text = ListaTransacciones[position].date
-        holder.amount.text = ListaTransacciones[position].amount
+       // holder.image.imageTintList= ListaTransacciones[position].imgUrl
 
     }
 }
