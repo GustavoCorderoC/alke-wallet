@@ -55,10 +55,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     //Agregando las depedencias
     //Retrofit
-    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
     // Conversor
-    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
-    implementation ("com.google.code.gson:gson:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.google.code.gson:gson:2.11.0")
     //interceptor
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
     //Corrutinas
@@ -67,12 +67,13 @@ dependencies {
     implementation("androidx.room:room-runtime:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
     //Picasso
-    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation("com.squareup.picasso:picasso:2.8")
     //Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:3.12.4")
     testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
 
-
-
 }
+
+
+
